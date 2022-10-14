@@ -1,0 +1,39 @@
+header{
+    height: 6vh;
+}
+.main hr{
+    height: 1px;
+    background-color: #828282;
+}
+header a{
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+header a:hover{
+    color: black;
+    font-weight: 600;
+}
+main .lang{
+    transform: rotate(-0deg);
+}
+main .row img{
+    width: 100%;
+}
+.aboutMe, .portfolio{
+    background-color:#F6F6F6;
+}
+.contacts button{
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+}
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {
+    main .lang{
+        transform: rotate(-90deg);
+    }
+}
